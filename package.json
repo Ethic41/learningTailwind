@@ -1,0 +1,24 @@
+{
+  "name": "learningtailwind",
+  "version": "1.0.0",
+  "description": "learning design with tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethic41/learningTailwind.git"
+  },
+  "author": "Dahir Muhammad Dahir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethic41/learningTailwind/issues"
+  },
+  "homepage": "https://github.com/Ethic41/learningTailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^9.0.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.11"
+  }
+}
